@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "S22",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceRoot}/lib/main.dart",
+            "args": [
+              "-t", // if your have different main file
+              "lib/main.dart",
+              "-d",
+              "SM S908E"
+            ],
+          },
+          {
+            "name": "S9",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceRoot}/lib/main.dart",
+            "args": [
+              "-t", // if your have different main file
+              "lib/main.dart",
+              "-d",
+              "SM N950F"
+            ],
+          },
+          {
+            "name": "S20",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceRoot}/lib/main.dart",
+            "args": [
+              "-t", // if your have different main file
+              "lib/main.dart",
+              "-d",
+              "SM G988B"
+            ],
+          },
+          {
+            "name": "iPhone13Pro",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+              "-t", // if your have different main file
+              "${workspaceRoot}/lib/main.dart",
+              "-d",
+              "iPhone13Pro"
+            ]
+          },
+          {
+            "name": "iPhoneSE",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+              "-t", // if your have different main file
+              "${workspaceRoot}/lib/main.dart",
+              "-d",
+              "iPhone XS Max"
+            ]
+          },
+    ]
+}
